@@ -684,9 +684,7 @@ An op-amp filter can produce much more sophisticated \(H(f)\).
 And DSP does exactly the same thing mathematically.
 
 19. This is the beautiful bridge between analog and DSP
-
-Your intuition from our earlier DSP discussions is exactly right.
-
+ 
 An analog:
 
 $$ RC $$

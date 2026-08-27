@@ -1005,14 +1005,3 @@ I would summarize the whole subject like this:
        region              interference
 ```
 
-A capacitor may need to operate at 100 MHz even though we're processing 20-kHz audio, because its parasitic behavior affects the 20-kHz circuit.
-
-An op amp may need 20 MHz of bandwidth even though the signal stops at 20 kHz.
-
-An ADC running at 96 kHz has a 48-kHz Nyquist limit even though humans nominally stop around 20 kHz.
-
-And a DSP running at 100 MHz can be perfectly adequate for 48-kHz audio because it has thousands of processor cycles available per sample.
-
-So the really interesting next step would be to build an "Audio Electronics Physical Limits Table" where we derive, mathematically, the useful ranges for R, C, L, transformers, diodes, BJTs, FETs, op-amps, ADCs, DACs, DSPs, clock rates, voltage rails, current, noise, THD, slew rate, and sample rates, with minimum → nominal → maximum values, and explicitly calculate each boundary from 20 Hz / 20 kHz / 48 kHz / 96 kHz / human dynamic range.
-
-No oversampling/anti-aliasing concern here, for what it's worth — these are first-order corner frequencies well below Nyquist even at 44.1 kHz, not something generating harmonics that could fold back; that consideration matters more once we get to the Rectifier & Fuzz plugin (nonlinear diode stuff genuinely can generate energy above Nyquist)

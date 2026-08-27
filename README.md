@@ -4,7 +4,9 @@ This is part of a larger project to make some electronic compontent models with 
 
 Additionally I'm going to try to put some "limits" min max that make sense for standard electronics for human range audio processes.
 For example 
-a knob that goes from 1 Ω to 10 MΩ or 1 pF to 10 F is really a knob that's mostly "silence" or "no audible difference" at both ends, since the actual audio effect is governed by how the component's impedance compares to the 1 kΩ reference load this plugin already uses. Let me ground the ranges in that specific topology rather than a generic textbook range, since that's what's actually relevant here.
+a knob that goes from 1 Ω to 10 MΩ or 1 pF to 10 F is really a knob that's mostly "silence" or "no audible difference" at both ends, since the actual audio effect is governed by how the component's impedance compares to the 1 kΩ reference load this plugin already uses.   
+
+what's actually relevant for the scope of the basic effect plugins to model useful component inserts: 
 
 The derivation, using the plugin's own 1 kΩ reference load:
 

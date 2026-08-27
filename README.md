@@ -27,7 +27,7 @@ Inductor: 100 µH – 10 H
 ```
 Just posting up some considerations
 
-yquist–Shannon, Fourier analysis, calculus, differential equations, convolution, stability theory, noise theory, and limits/minima/maxima all converge on this.
+Nyquist–Shannon, Fourier analysis, calculus, differential equations, convolution, stability theory, noise theory, and limits/minima/maxima all converge on this.
 
 The important distinction is that there is no universal minimum or maximum value for a component. There is instead a useful operating region for a component within an audio system.
 

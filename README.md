@@ -80,8 +80,6 @@ This is exactly why 44.1-kHz audio is not simply designed with an ideal brick-wa
 
 2. The master equation: every passive audio network is basically a differential equation
 
-This is where your calculus intuition becomes extremely powerful.
-
 For a resistor:
 
 $$ V=IR $$

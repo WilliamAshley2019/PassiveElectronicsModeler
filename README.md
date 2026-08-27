@@ -167,8 +167,7 @@ TI likewise notes that reducing resistor values reduces their noise contribution
 
 4. Capacitors
 
-This is where your Fourier/calculus idea becomes particularly beautiful.
-
+ 
 $$ X_C=\frac{1}{2\pi fC} $$
 
 Suppose:
@@ -1005,13 +1004,6 @@ I would summarize the whole subject like this:
        useful               waste/
        region              interference
 ```
-And that is why your idea of applying calculus-derived minima and maxima to audio component values is fundamentally sound.
-
-The only correction I'd make is:
-
-Don't define component limits directly from human hearing. Define them from the electrical requirements necessary to faithfully represent the human-audible signal.
-
-That distinction is huge.
 
 A capacitor may need to operate at 100 MHz even though we're processing 20-kHz audio, because its parasitic behavior affects the 20-kHz circuit.
 
